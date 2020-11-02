@@ -16,4 +16,9 @@ class Javabuzz {
     return this._isDivisibleBy(number, 15);
   }
 
+  says(number) {
+    if (this.isDivisibleByThree(number)) {
+      return "Java";
+    }
+  }
 }
