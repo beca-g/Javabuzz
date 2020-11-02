@@ -1,5 +1,7 @@
 class Javabuzz {
+
   isDivisibleByThree(number) {
-    return (number % 3 === 0);
+    return this._isDivisibleBy(number, 3);
   }
+
 }
